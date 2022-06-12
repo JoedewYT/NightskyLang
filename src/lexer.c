@@ -7,7 +7,7 @@ lexer_T* init_lexer(char* contents)
     lexer->i = 0;
     lexer->c = contents[lexer->i];
 
-    return lexer
+    return lexer;
 }
 
 void lexer_advance(lexer_T* lexer)
