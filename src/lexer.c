@@ -1,4 +1,5 @@
 #include "include/lexer.h"
+#include<stdlib.h>
 
 lexer_T* init_lexer(char* contents)
 {
